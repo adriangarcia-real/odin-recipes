@@ -1,0 +1,33 @@
+* {
+  font-family: 'Courier New', 'Verdana', 'sans-serif';
+}
+
+h1 {
+  font-size: 60px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 30px;
+}
+
+a {
+  color:yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cover-image {
+  height: auto;
+  width: 500px;
+}
