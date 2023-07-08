@@ -1,33 +1,87 @@
 * {
   font-family: "Courier New", "Verdana", "sans-serif";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 body {
-  background-color: black;
+  background-color: #0c0c0c;
   color: white;
   border: 1px solid white;
-  padding: 0 20px;
-  
+  padding: 50px;
+  width: 1000px;
+  margin: 20px auto;
 }
 
 h1 {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 35px;
-  color: yellow;
+  font-size: 36px;
+  color: #FCFF00;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit:cover;
 }
 
 .tagline {
-  font-size: 25px;
+  font-size: 26px;
   font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: inline-block;  
+  width: 300px;
+}
+
+.recipe-description-container{
+  display: inline-block;
+  width: 650px;
+  vertical-align: top;
+}
+
+.recipe-description-container ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.recipe-description-container li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.recipe-time {
+  color: #FCFF00;
+  font-weight: bold;
 }
 
 li, p {
   font-size: 18px;
 }
 
-a {
-  color: yellow;
+h3, a {
+  margin-top: 20px;
+  color: #FCFF00; 
+}
+
+.instructions li {
+  margin-left: 14px;
+}
+
+.ingredients, .instructions {
+  margin: 20px 0;
 }

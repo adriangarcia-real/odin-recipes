@@ -42,13 +42,16 @@ a {
 }
 
 .recipe-image:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .recipe-name {
   font-size: 24px;
+  transition: text-decoration 0.15s;
+
 }
 
+
 .recipe-name:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
