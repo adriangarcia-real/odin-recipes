@@ -76,6 +76,11 @@ li, p {
 h3, a {
   margin-top: 20px;
   color: #FCFF00; 
+  transition: text-decoration 0.15s;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .instructions li {

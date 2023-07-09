@@ -2,6 +2,7 @@
   font-family: 'Courier New', 'Verdana', 'sans-serif';
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -25,8 +26,10 @@ a {
 
 .recipe-cover {
   width: 300px;
+  height: auto;
   display: inline-block;
   margin-right: 30px;
+  vertical-align: top;
 }
 
 .recipe-cover:nth-child(3) {
@@ -42,7 +45,9 @@ a {
 }
 
 .recipe-image:hover {
-  opacity: 0.7;
+  opacity: 0.8;
+  border: 2px solid #FCFF00;
+  margin-bottom: 12px;
 }
 
 .recipe-name {
@@ -50,7 +55,6 @@ a {
   transition: text-decoration 0.15s;
 
 }
-
 
 .recipe-name:hover {
   text-decoration: underline;
